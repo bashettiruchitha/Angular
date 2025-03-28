@@ -1,0 +1,12 @@
+.table{
+    border: 2px solid black;
+    border-radius : 10px ;
+    padding: 5px;
+    background-color: hotpink;
+    margin: auto;
+    
+}
+td{
+    border: 1px solid black;
+    padding: 5px;
+}

@@ -1,0 +1,14 @@
+<table [ngClass]="tableStyle">
+    <tr>
+        <td>Book ID</td>
+        <td>Book Name</td>
+        <td>Book Author</td>
+        <td>Book Price</td>
+    </tr>
+    <tr *ngFor="let book of acutalBooks">
+        <td>{{book.bookId}}</td>
+        <td>{{book.bookName}}</td>
+        <td>{{book.bookAuthor}}</td>
+        <td>{{book.bookPrice}}</td>
+    </tr>
+</table>

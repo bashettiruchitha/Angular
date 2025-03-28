@@ -1,0 +1,19 @@
+<input type="number" name="" id="" placeholder="Enter Book Id" [(ngModel)]="bookId">
+<button (click)="localViewSingleBook()">Find</button>
+<br>
+<table [ngClass]="tableStyle">
+
+    <tr>
+        <td>Book ID</td>
+        <td>Book Name</td>
+        <td>Book Author</td>
+        <td>Book Price</td>
+    </tr>
+    <tr>
+        <td>{{book.bookId}}</td>
+        <td>{{book.bookName}}</td>
+        <td>{{book.bookAuthor}}</td>
+        <td>{{book.bookPrice}}</td>
+        
+    </tr>
+</table>
